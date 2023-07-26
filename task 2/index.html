@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <p class="title">TO - DO LIST</p>
+    <main class="main">
+    <form action="">
+        <input type="text" class="input" placeholder="Add a Task...">
+        <button class="button" type="submit">
+            <i class="fas fa-plus-circle fa-lg"></i>
+        </button>
+        <div class="select">
+            <select id="priority-select">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </div>
+        <div class="select">
+            <select name="todos" class="filter">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="Selection ">
+        <ul class="list"></ul>
+    </div>
+</main>
+<footer>
+    <p class="footer"> MADE BY YOGENDRA PATEL</p>
+</footer>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
